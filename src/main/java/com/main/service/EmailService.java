@@ -26,7 +26,6 @@ public class EmailService {
                 "\nEmail: " + contactMessage.getEmail() +
                 "\n\nMessage:\n" + contactMessage.getMessage()
         );
-
         mailSender.send(message);
     }
 }
