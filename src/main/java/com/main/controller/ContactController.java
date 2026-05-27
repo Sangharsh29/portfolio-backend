@@ -8,7 +8,7 @@ import com.main.service.EmailService;
 
 @RestController
 @RequestMapping("/api/contact")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://portfolio-frontend-smoky-omega.vercel.app")
 public class ContactController {
 
     @Autowired
